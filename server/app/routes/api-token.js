@@ -37,7 +37,4 @@ router.post('/transfer-owner', tokenApi.transferOwnership);
 router.get('/kill-token', tokenApi.killToken);
 // router.post('/mint', tokenApi.mintTokens);
 
-// ERC20 Specific
-router.post('/transfer-from', tokenApi.transferFrom)//requires req.body
-
 module.exports = router;
